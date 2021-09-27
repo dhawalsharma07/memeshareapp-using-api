@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Laughter</string>
+    <string name="laugh">Laugh More Happy More</string>
+    <string name="pre">PREV</string>
+    <string name="nex">NEXT</string>
+    <string name="share">SHARE</string>
+</resources>
