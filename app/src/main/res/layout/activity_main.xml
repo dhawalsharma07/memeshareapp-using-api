@@ -23,22 +23,25 @@
 
     <ImageView
         android:id="@+id/memeimageView"
-        android:layout_width="419dp"
-        android:layout_height="399dp"
+        android:layout_width="397dp"
+        android:layout_height="394dp"
         android:layout_marginBottom="108dp"
         app:layout_constraintBottom_toTopOf="@+id/button2"
-        tools:layout_editor_absoluteX="-6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="44dp"
         android:onClick="share"
         android:text="@string/share"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="1.0" />
 
@@ -46,14 +49,15 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="228dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="44dp"
         android:onClick="next"
         android:text="@string/nex"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
